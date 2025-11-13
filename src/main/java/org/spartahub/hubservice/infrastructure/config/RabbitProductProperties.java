@@ -9,5 +9,4 @@ public class RabbitProductProperties {
     private String exchange;
     private String queue;
     private String routingKey;
-
 }

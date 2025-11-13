@@ -15,7 +15,8 @@ public class MessageSendTest {
 
     @Test
     void test() {
-        ProductMessage message = new ProductMessage("테스트 메세지", LocalDateTime.now());
+        ProductMessage message = new ProductMessage("테스트 메세지2", LocalDateTime.now());
         rabbitTemplate.convertAndSend("sparta", "product.test", message);
     }
+
 }
